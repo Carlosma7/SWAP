@@ -41,6 +41,8 @@ Inicialmente, seleccionaremos el idioma español e iniciamos la instalación de 
 
 Para empezar seleccionaremos el idioma de nuestro servidor de ubuntu, 
 y realizaremos el proceso de detección de nuestro teclado, y poserteriormente elegiremos el nombre de nuestra máquina.
+
+
 | [![Imagen 9](https://github.com/Carlosma7/SWAP/blob/master/Practicas/Practica%201/Imagenes/9.png?raw=true)](https://github.com/Carlosma7/SWAP/blob/master/Practicas/Practica%201/Imagenes/9.png?raw=true)  | [![Imagen 10](https://github.com/Carlosma7/SWAP/blob/master/Practicas/Practica%201/Imagenes/10.png?raw=true)](https://github.com/Carlosma7/SWAP/blob/master/Practicas/Practica%201/Imagenes/10.png?raw=true) | [![Imagen 11](https://github.com/Carlosma7/SWAP/blob/master/Practicas/Practica%201/Imagenes/11.png?raw=true)](https://github.com/Carlosma7/SWAP/blob/master/Practicas/Practica%201/Imagenes/11.png?raw=true) |
 |:---:|:---:|:---:|
 
