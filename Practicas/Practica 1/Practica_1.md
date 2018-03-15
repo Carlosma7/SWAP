@@ -8,27 +8,36 @@ Para la realización de las prácticas he escogido la herramienta de virtualizac
 
 Inicialmente seleccionaremos en el botón *Nueva*, para crear una nueva máquina virtual, y le asignaremos el espacio de memoria deseado, en nuestro caso, el estrictamente recomendado. Para ello crearemos un disco virtual al que se le asigna 8 GB de memoria recomendado de forma automática.
 
+
 | [![Imagen 1](https://github.com/Carlosma7/SWAP/blob/master/Practicas/Practica%201/Imagenes/1.png?raw=true)](https://github.com/Carlosma7/SWAP/blob/master/Practicas/Practica%201/Imagenes/1.png?raw=true)  | [![Imagen 2](https://github.com/Carlosma7/SWAP/blob/master/Practicas/Practica%201/Imagenes/2.png?raw=true)](https://github.com/Carlosma7/SWAP/blob/master/Practicas/Practica%201/Imagenes/2.png?raw=true) |
 |:---:|:---:|
+
 
 Posteriormente, seleccionaremos la opción de imagen de disco virtual (el SO de Ubuntu Server que instalaremos posteriormente), y seleccionaremos que el almacenamiento se realice de forma dinámica en el disco duro.
 
 Por último, introduciremos el nombre de la imagen creada y le asignaremos una memoria de disco duro virtual, y posteriormente crearemos finalmente la imagen.
+
+
 | [![Imagen 3](https://github.com/Carlosma7/SWAP/blob/master/Practicas/Practica%201/Imagenes/3.png?raw=true)](https://github.com/Carlosma7/SWAP/blob/master/Practicas/Practica%201/Imagenes/3.png?raw=true)  | [![Imagen 4](https://github.com/Carlosma7/SWAP/blob/master/Practicas/Practica%201/Imagenes/4.png?raw=true)](https://github.com/Carlosma7/SWAP/blob/master/Practicas/Practica%201/Imagenes/4.png?raw=true) | [![Imagen 5](https://github.com/Carlosma7/SWAP/blob/master/Practicas/Practica%201/Imagenes/5.png?raw=true)](https://github.com/Carlosma7/SWAP/blob/master/Practicas/Practica%201/Imagenes/5.png?raw=true) |
 |:---:|:---:|:---:|
+
 
 ### Instalación de Ubuntu Server
 
 Una vez creada la imagen, seleccionaremos la imagen a instalar en nuestra máquina virtual ya creada, para ello seleccionaremos la máquina, presionaremos en *Configuración*, a continuación, nos dirigiremos a la pestaña de *Almacenamiento*, seleccionaremos en el disco vacío debajo de *Controlador: IDE*, y presionando en el símbolo del disco en la derecha de la pantalla, abriremos el explorador de archivos y seleccionaremos la imagen de **Ubuntu Server 16.04.3** anteriormente descargada.
 
+
 ![Imagen 6](https://github.com/Carlosma7/SWAP/blob/master/Practicas/Practica%201/Imagenes/6.png?raw=true)
+
 
 A continuación, iniciaremos la máquina creada con la imagen asignada e instalaremos *Ubuntu Server*.
 
 Inicialmente, seleccionaremos el idioma español e iniciamos la instalación de *Ubuntu Server* :
 
+
 | [![Imagen 7](https://github.com/Carlosma7/SWAP/blob/master/Practicas/Practica%201/Imagenes/7.png?raw=true)](https://github.com/Carlosma7/SWAP/blob/master/Practicas/Practica%201/Imagenes/7.png?raw=true)  | [![Imagen 8](https://github.com/Carlosma7/SWAP/blob/master/Practicas/Practica%201/Imagenes/8.png?raw=true)](https://github.com/Carlosma7/SWAP/blob/master/Practicas/Practica%201/Imagenes/8.png?raw=true) |
 |:---:|:---:|
+
 
 Para empezar seleccionaremos el idioma de nuestro servidor de ubuntu, 
 y realizaremos el proceso de detección de nuestro teclado, y poserteriormente elegiremos el nombre de nuestra máquina.
@@ -36,23 +45,34 @@ y realizaremos el proceso de detección de nuestro teclado, y poserteriormente e
 |:---:|:---:|:---:|
 
 A continuación indicaremos nuestro nombre, nick y contraseña de usuario que usaremos para loguearnos dentro de la máquina.
+
+
 | [![Imagen 12](https://github.com/Carlosma7/SWAP/blob/master/Practicas/Practica%201/Imagenes/12.png?raw=true)](https://github.com/Carlosma7/SWAP/blob/master/Practicas/Practica%201/Imagenes/12.png?raw=true)  | [![Imagen 13](https://github.com/Carlosma7/SWAP/blob/master/Practicas/Practica%201/Imagenes/13.png?raw=true)](https://github.com/Carlosma7/SWAP/blob/master/Practicas/Practica%201/Imagenes/13.png?raw=true) | [![Imagen 14](https://github.com/Carlosma7/SWAP/blob/master/Practicas/Practica%201/Imagenes/14.png?raw=true)](https://github.com/Carlosma7/SWAP/blob/master/Practicas/Practica%201/Imagenes/14.png?raw=true) |
 |:---:|:---:|:---:|
 
+
 Continuaremos indicando que no sea cifrada la carpeta personal del usuario, indicando la zona horaria y utilizando todo el disco para la instalación de nuestra máquina.
+
 
 | [![Imagen 15](https://github.com/Carlosma7/SWAP/blob/master/Practicas/Practica%201/Imagenes/15.png?raw=true)](https://github.com/Carlosma7/SWAP/blob/master/Practicas/Practica%201/Imagenes/15.png?raw=true)  | [![Imagen 16](https://github.com/Carlosma7/SWAP/blob/master/Practicas/Practica%201/Imagenes/16.png?raw=true)](https://github.com/Carlosma7/SWAP/blob/master/Practicas/Practica%201/Imagenes/16.png?raw=true) | [![Imagen 17](https://github.com/Carlosma7/SWAP/blob/master/Practicas/Practica%201/Imagenes/17.png?raw=true)](https://github.com/Carlosma7/SWAP/blob/master/Practicas/Practica%201/Imagenes/17.png?raw=true) |
 |:---:|:---:|:---:|
 
+
 Ahora elegiremos el disco a particionar e indicaremos que no deseamos usar ningún proxy HTTP.
 
 Posteriormente, seleccionaremos los paquetes necesarios para la instalación, para ello escogeremos las opciones *LAMP Server* y *SSH Server*.
+
+
 | [![Imagen 18](https://github.com/Carlosma7/SWAP/blob/master/Practicas/Practica%201/Imagenes/18.png?raw=true)](https://github.com/Carlosma7/SWAP/blob/master/Practicas/Practica%201/Imagenes/18.png?raw=true)  | [![Imagen 19](https://github.com/Carlosma7/SWAP/blob/master/Practicas/Practica%201/Imagenes/19.png?raw=true)](https://github.com/Carlosma7/SWAP/blob/master/Practicas/Practica%201/Imagenes/19.png?raw=true) | [![Imagen 20](https://github.com/Carlosma7/SWAP/blob/master/Practicas/Practica%201/Imagenes/20.png?raw=true)](https://github.com/Carlosma7/SWAP/blob/master/Practicas/Practica%201/Imagenes/20.png?raw=true) |
 |:---:|:---:|:---:|
 
+
 Para finalizar, introduciremos la contraseña para el usuario root en *MySQL*, en nuestro caso la misma que el usuario creado anteriormente, e indicaremos que sí queremos instalar el menú *Grub* de Ubuntu y finalizaremos la instalación.
+
+
 | [![Imagen 21](https://github.com/Carlosma7/SWAP/blob/master/Practicas/Practica%201/Imagenes/21.png?raw=true)](https://github.com/Carlosma7/SWAP/blob/master/Practicas/Practica%201/Imagenes/21.png?raw=true)  | [![Imagen 22](https://github.com/Carlosma7/SWAP/blob/master/Practicas/Practica%201/Imagenes/22.png?raw=true)](https://github.com/Carlosma7/SWAP/blob/master/Practicas/Practica%201/Imagenes/22.png?raw=true) |
 |:---:|:---:|
+
 
 ----------
 
