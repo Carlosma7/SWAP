@@ -1,5 +1,5 @@
 # Ejercicios Tema 2 - SWAP
-*Carlos Morales Aguilera* - 02/03/2018
+*Carlos Morales Aguilera* - 22/03/2018
 
 ## Ejercicio T2.1
 **Calcular la disponibilidad del sistema si tenemos dos réplicas de cada elemento (en total 3 elementos en cada subsistema).**
