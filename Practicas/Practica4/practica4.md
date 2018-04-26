@@ -1,4 +1,4 @@
-# Práctica 3 - SWAP
+# Práctica 4 - SWAP
 *Carlos Morales Aguilera* - 25/04/2018
 
 ## Crear e instalar en la máquina 1 un certificado SSL autofirmado para configurar el acceso HTTPS a los servidores. Una vez configurada la máquina 1, se debe copiar al resto de máquinas servidoras y al balanceador de carga. Se debe configurar nginx adecuadamente para aceptar y balancear correctamente tanto el tráfico HTTP como el HTTPS.
